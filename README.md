@@ -16,3 +16,5 @@ ie) if you wanted to add 1 to each element in an array, it is cheaper to do an m
 - columns of data are stored in variables that are called when plotting
 - plotting (time,altitude) we have some data anomalies
 - appened ms to s to m via datetime or sx10^2+ms. This is our x data points
+- forgot we were suppose to use ode45, will apply this to the code later.
+/end of iteration-2
