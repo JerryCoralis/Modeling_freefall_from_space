@@ -1,0 +1,50 @@
+[email 1]
+Good afternoon Hadi,
+
+I have a question regarding Assignment2 - part1.
+
+We have a number of options to import the .xlsx data into matlab, can you guide me as to which one I should use?
+Here is what I have come up with.
+
+- uiimport()
+requires the user to manually select the data, so I assume this is not what we want. 
+
+- importdata()
+seems to work fine, data is stored in 3 variables numerics, txt, headers. 
+
+- readtable()
+the outputted table array most resembles the inputted excel data.
+
+- xlsread()
+[num] = xlsread(filename) yields a prepared table, grabbing the numeric and NaN entries. 
+Seems easy to cut out all rows and cols with NaN, and start setting up the plotting functions 
+
+
+A few of these options seem plausible, can you direct me to which one is the best to use.
+
+Also when we are graded on this, will it be marked against the same excel spreadsheet we were provided? 
+I'm asking because I code variables expecting the data to be in a certain order in terms of columns and rows. 
+
+Sorry for the lengthy question, I hope your break is going well,
+Jerry
+===================================================================================================================
+
+
+As Craig mentioned in the class you would better start using xlsread and if you could not get the the data in a way you like, 
+try csvread after saving the data in CSV format. xlsread will do what you want. 
+
+I have cc ed Zheda as he will mark the assignment for your second question.
+
+Please ask your questions in Piazza as it has been requested by the instructor.
+====================================================================================================================
+
+Please view the latest questions from Piazza.
+You can use xlsread function.
+
+The actually data and your model vs. time
+need to be plotted.
+
+Using "hold on" command when you plot.
+
+Try to match your model with the actual data 
+as much as possible.
