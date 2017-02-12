@@ -1,6 +1,4 @@
-[Code Log] 
-
-Feb. 11 - morning
+[Feb. 11 - morning]
 - data importing: uiimport, xlsread, readtable, importdata https://www.mathworks.com/help/matlab/ref/xlsread.html#bthgbma
 - type .xlsx
 - reading of data is done via ??? awaiting email 
@@ -9,7 +7,7 @@ Feb. 11 - morning
 /end of iteration-1, commited to master
 
 
-Feb. 11 - night
+[Feb. 11 - night]
 - Working on prepping data, first iteration removes all rows that contain only NaN via any(rawArray,2)
 
 !!! vectorization = when you use a matrix operation to reduce a loop
