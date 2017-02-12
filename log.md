@@ -4,3 +4,4 @@ Feb. 11
 - reading of data is done via ??? awaiting email 
 - prep the data: remove emepty, chara, 0 rows & columns. This way all elements of the matrix of data is plot-able
 - plot the prepped data to generate plots for altitude, abs(velocty), altitude
+- 
