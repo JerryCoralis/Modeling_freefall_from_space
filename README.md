@@ -1,4 +1,15 @@
-Feb. 11 [night]
+[Code Log] 
+
+Feb. 11 - morning
+- data importing: uiimport, xlsread, readtable, importdata https://www.mathworks.com/help/matlab/ref/xlsread.html#bthgbma
+- type .xlsx
+- reading of data is done via ??? awaiting email 
+- prep the data: remove emepty, chara, 0 rows & columns. This way all elements of the matrix of data is plot-able
+- plot the prepped data to generate plots for altitude, abs(velocty), altitude
+/end of iteration-1
+
+
+Feb. 11 - night
 - Working on prepping data, first iteration: 
 removes all rows that contain only NaN via any(rawArray,2)
 
