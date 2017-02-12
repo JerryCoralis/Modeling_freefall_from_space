@@ -15,7 +15,8 @@ seems to work fine, data is stored in 3 variables numerics, txt, headers.
 the outputted table array most resembles the inputted excel data.
 
 - xlsread()
-[num] = xlsread(filename) yields a prepared table, grabbing the numeric and NaN entries. Seems easy to cut out all rows and cols with NaN, and start setting up the plotting functions 
+[num] = xlsread(filename) yields a prepared table, grabbing the numeric and NaN entries. 
+Seems easy to cut out all rows and cols with NaN, and start setting up the plotting functions 
 
 
 A few of these options seem plausible, can you direct me to which one is the best to use.
@@ -25,4 +26,24 @@ I'm asking because I code variables expecting the data to be in a certain order 
 
 Sorry for the lengthy question, I hope your break is going well,
 Jerry
+===================================================================================================================
 
+
+As Craig mentioned in the class you would better start using xlsread and if you could not get the the data in a way you like, 
+try csvread after saving the data in CSV format. xlsread will do what you want. 
+
+I have cc ed Zheda as he will mark the assignment for your second question.
+
+Please ask your questions in Piazza as it has been requested by the instructor.
+====================================================================================================================
+
+Please view the latest questions from Piazza.
+You can use xlsread function.
+
+The actually data and your model vs. time
+need to be plotted.
+
+Using "hold on" command when you plot.
+
+Try to match your model with the actual data 
+as much as possible.
