@@ -16,4 +16,6 @@ removes all rows that contain only NaN via any(rawArray,2)
 !!! vectorization = when you use a matrix operation to reduce a loop
 ie) if you wanted to add 1 to each element in an array, it is cheaper to do an matrix operation then to loop through every element
 
-- appened ms to s via datetime or sx10^2+ms. This is our x data points 
+- columns of data are stored in variables that are called when plotting
+- plotting time,altitude we have some data anomalies
+- appened ms to s via datetime or sx10^2+ms. This is our x data points
