@@ -17,3 +17,11 @@ ie) if you wanted to add 1 to each element in an array, it is cheaper to do an m
 - appened ms to s to m via datetime or sx10^2+ms. This is our x data points
 - forgot we were suppose to use ode45, will apply this to the code later.
 - /end of iteration-2
+
+[Feb. 15 - morning]
+- /continue iteration-2
+- visual of the mission, compare with graphed results to ensure everything is working 
+  http://www.redbullstratos.com/the-mission/mission-timeline/ 
+- Omit a data point if dependant value is NaN, keep the other elements of the row, they might be a valid point. 
+- continuation of (appened ms to s to m via datetime or sx10^2+ms. This is our x data points)
+  - Have a uniform independant value to plot against. All other data points should be plotted against this. 
