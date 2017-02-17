@@ -27,4 +27,9 @@
   - Have a uniform independant value to plot against. All other data points should be plotted against this. 
 
 [Feb. 17 - afternoon]
-- new data for excel with far more data points. 
+- new excel data with more data points. Current code is able to handle both files. 
+- office hour with Hadi:
+  - model we generate is to be compared to actual model, this is how we are graded.
+  - in later parts we are suppose to adjust drag force to more accurately simulate the jump.
+  - Part1: read through and follow 10.3-10.5, apply this to our problem
+  
