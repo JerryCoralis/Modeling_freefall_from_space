@@ -9,8 +9,8 @@
 [Feb. 11 - night]
 - Working on prepping data, first iteration removes all rows that contain only NaN via any(rawArray,2)
 
-!!! vectorization = when you use a matrix operation to reduce a loop
-ie) if you wanted to add 1 to each element in an array, it is cheaper to do an matrix operation then to loop through every element
+  !!! vectorization = when you use a matrix operation to reduce a loop
+  ie) if you wanted to add 1 to each element in an array, it is cheaper to do an matrix operation then to loop through every element
 
 - columns of data are stored in variables that are called when plotting
 - plotting (time,altitude) we have some data anomalies
@@ -25,3 +25,6 @@ ie) if you wanted to add 1 to each element in an array, it is cheaper to do an m
 - Omit a data point if dependant value is NaN, keep the other elements of the row, they might be a valid point. 
 - continuation of (appened ms to s to m via datetime or sx10^2+ms. This is our x data points)
   - Have a uniform independant value to plot against. All other data points should be plotted against this. 
+
+[Feb. 17 - afternoon]
+- new data for excel with far more data points. 
