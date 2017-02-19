@@ -34,7 +34,7 @@
   - Part1: read through and follow 10.3-10.5, apply this to our problem
   
 [Feb. 19 - afternoon]
-- ode45:
+- apply ode45 to model free fall:
   - takes in an interval, and initial conditions. Sometimes the initial cond. variable is unused but is still requried.
   - susbs in the free fall formula and it will model the equation
 
