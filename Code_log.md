@@ -38,6 +38,12 @@
   - takes in an interval, and initial conditions. Sometimes the initial cond. variable is unused but is still requried.
   - susbs in the free fall formula and it will model the equation
 
+[Feb. 21 - Morning]
+- going over any() and comparing it to isnan to see which is a better filter for the raw data:
+  - any goes along the rows and tests to see if there is a nonzero value in that row, returns a logic of this
+  - via dataArray(B,:) take the logic true rows and grab their col elements, this is our new matrix
+  - this deletes all the rows with ONLY nonzero entries, in our case NaN. Heartrate prevents the case of allMovementData = 0
+ - 
 
 
 
