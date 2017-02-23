@@ -11,8 +11,8 @@ ____
 [Feb. 11 - night]
 - Working on prepping data, first iteration removes all rows that contain only NaN via any(rawArray,2)
 
-- !!! vectorization = when you use a matrix operation to reduce a loop
-  ie) if you wanted to add 1 to each element in an array, it is cheaper to do an matrix operation then to loop through every element
+> !!! vectorization = when you use a matrix operation to reduce a loop
+> if you wanted to add 1 to each element in an array, it is cheaper to do an matrix operation then to loop through every element
   
 - columns of data are stored in variables that are called when plotting
 - plotting (time,altitude) we have some data anomalies
