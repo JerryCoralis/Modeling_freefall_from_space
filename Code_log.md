@@ -1,14 +1,12 @@
-[Feb. 11 - morning]
-- data `importing: uiimport, xlsread, readtable, importdata` https://www.mathworks.com/help/matlab/ref/xlsread.html#bthgbma
-- type .xlsx
+##[Feb. 11 - morning]
+- data `importing: uiimport, xlsread, readtable, importdata` [xlsread doc](https://www.mathworks.com/help/matlab/ref/xlsread.html#bthgbma)
 - reading of data is done via xlsread, but other options are viable
 - prep the data: remove emepty, chara, 0 rows & columns. This way all elements of the matrix of data is plot-able
 - plot the prepped data to generate plots for altitude, abs(velocty), altitude
 - /end of iteration-1, commited to master
 
-____
 
-[Feb. 11 - night]
+##[Feb. 11 - night]
 - Working on prepping data, first iteration removes all rows that contain only NaN via any(rawArray,2)
 
 > !!! vectorization = when you use a matrix operation to reduce a loop
@@ -22,7 +20,7 @@ ____
 
 ___
 
-[Feb. 15 - morning]
+##[Feb. 15 - morning]
 - /continue iteration-2
 - visual of the mission, compare with graphed results to ensure everything is working 
   http://www.redbullstratos.com/the-mission/mission-timeline/ 
