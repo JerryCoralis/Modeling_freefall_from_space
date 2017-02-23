@@ -1,5 +1,5 @@
 [Feb. 11 - morning]
-- data importing: uiimport, xlsread, readtable, importdata https://www.mathworks.com/help/matlab/ref/xlsread.html#bthgbma
+- data `importing: uiimport, xlsread, readtable, importdata` https://www.mathworks.com/help/matlab/ref/xlsread.html#bthgbma
 - type .xlsx
 - reading of data is done via xlsread, but other options are viable
 - prep the data: remove emepty, chara, 0 rows & columns. This way all elements of the matrix of data is plot-able
@@ -39,12 +39,20 @@
   - susbs in the free fall formula and it will model the equation
 
 [Feb. 21 - Morning]
-- going over any() and comparing it to isnan to see which is a better filter for the raw data:
+- going over `any()` and comparing it to isnan to see which is a better filter for the raw data:
   - any goes along the rows and tests to see if there is a nonzero value in that row, returns a logic of this
-  - via dataArray(B,:) take the logic true rows and grab their col elements, this is our new matrix
+  - via `dataArray(B,:)` take the logic true rows and grab their col elements, this is our new matrix
   - this deletes all the rows with ONLY nonzero entries, in our case NaN. Heartrate prevents the case of allMovementData = 0
- - 
-
+  
+[Feb.22 - Afternoon] Iteration3
+- code now plots modeled data and raw excel data points for position against time
+  - adjust ode45's elapsedTime limits as well as the raw data's elapsedTime limits for a prettier plot
+- issue with plotting modeled velocity:
+  - `diff(position)` produces a shorter vector, we are going to cut out an element to make it congruent
+  - current plot looks a little funky, middle of the plot shoots to inf
+> this is aids
+> also very aids 
+  
 
 
 
