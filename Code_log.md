@@ -1,4 +1,4 @@
-##[Feb. 11 - morning]
+**[Feb. 11 - morning]**
 - data `importing: uiimport, xlsread, readtable, importdata` [xlsread doc](https://www.mathworks.com/help/matlab/ref/xlsread.html#bthgbma)
 - reading of data is done via xlsread, but other options are viable
 - prep the data: remove emepty, chara, 0 rows & columns. This way all elements of the matrix of data is plot-able
@@ -18,7 +18,6 @@
 - forgot we were suppose to use ode45, will apply this to the code later.
 - /end of iteration-2
 
-___
 
 ##[Feb. 15 - morning]
 - /continue iteration-2
@@ -28,7 +27,6 @@ ___
 - continuation of (appened ms to s to m via datetime or sx10^2+ms. This is our x data points)
   - Have a uniform independant value to plot against. All other data points should be plotted against this. 
   
-  ___
 
 [Feb. 17 - afternoon]
 - new excel data with more data points. Current code is able to handle both files. 
@@ -37,14 +35,13 @@ ___
   - in later parts we are suppose to adjust drag force to more accurately simulate the jump.
   - Part1: read through and follow 10.3-10.5, apply this to our problem
   
-  ___
   
 [Feb. 19 - afternoon]
 - apply ode45 to model free fall:
   - takes in an interval, and initial conditions. Sometimes the initial cond. variable is unused but is still requried.
   - susbs in the free fall formula and it will model the equation
   
-  ___
+
 
 [Feb. 21 - Morning]
 - going over `any()` and comparing it to isnan to see which is a better filter for the raw data:
@@ -52,7 +49,7 @@ ___
   - via `dataArray(B,:)` take the logic true rows and grab their col elements, this is our new matrix
   - this deletes all the rows with ONLY nonzero entries, in our case NaN. Heartrate prevents the case of allMovementData = 0
   
-  ___
+
   
 [Feb.22 - *Iteration3*] 
 - code now plots modeled data and raw excel data points for position against time
