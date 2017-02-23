@@ -5,7 +5,7 @@
 - plot the prepped data to generate plots for altitude, abs(velocty), altitude
 - /end of iteration-1, commited to master
 
-
+----
 ###[Feb. 11 - night]
 - Working on prepping data, first iteration removes all rows that contain only NaN via any(rawArray,2)
 
