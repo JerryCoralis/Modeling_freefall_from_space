@@ -6,6 +6,8 @@
 - plot the prepped data to generate plots for altitude, abs(velocty), altitude
 - /end of iteration-1, commited to master
 
+____
+
 [Feb. 11 - night]
 - Working on prepping data, first iteration removes all rows that contain only NaN via any(rawArray,2)
 
@@ -18,6 +20,8 @@
 - forgot we were suppose to use ode45, will apply this to the code later.
 - /end of iteration-2
 
+___
+
 [Feb. 15 - morning]
 - /continue iteration-2
 - visual of the mission, compare with graphed results to ensure everything is working 
@@ -25,6 +29,8 @@
 - Omit a data point if dependant value is NaN, keep the other elements of the row, they might be a valid point. 
 - continuation of (appened ms to s to m via datetime or sx10^2+ms. This is our x data points)
   - Have a uniform independant value to plot against. All other data points should be plotted against this. 
+  
+  ___
 
 [Feb. 17 - afternoon]
 - new excel data with more data points. Current code is able to handle both files. 
@@ -33,10 +39,14 @@
   - in later parts we are suppose to adjust drag force to more accurately simulate the jump.
   - Part1: read through and follow 10.3-10.5, apply this to our problem
   
+  ___
+  
 [Feb. 19 - afternoon]
 - apply ode45 to model free fall:
   - takes in an interval, and initial conditions. Sometimes the initial cond. variable is unused but is still requried.
   - susbs in the free fall formula and it will model the equation
+  
+  ___
 
 [Feb. 21 - Morning]
 - going over `any()` and comparing it to isnan to see which is a better filter for the raw data:
@@ -44,14 +54,14 @@
   - via `dataArray(B,:)` take the logic true rows and grab their col elements, this is our new matrix
   - this deletes all the rows with ONLY nonzero entries, in our case NaN. Heartrate prevents the case of allMovementData = 0
   
-[Feb.22 - Afternoon] Iteration3
+  ___
+  
+[Feb.22 - Afternoon] *Iteration3*
 - code now plots modeled data and raw excel data points for position against time
   - adjust ode45's elapsedTime limits as well as the raw data's elapsedTime limits for a prettier plot
 - issue with plotting modeled velocity:
   - `diff(position)` produces a shorter vector, we are going to cut out an element to make it congruent
   - current plot looks a little funky, middle of the plot shoots to inf
-> this is aids
-> also very aids 
   
 
 
