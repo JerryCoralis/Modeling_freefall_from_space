@@ -1,4 +1,4 @@
-**[Feb. 11 - morning]**
+###[Feb. 11 - morning]
 - data `importing: uiimport, xlsread, readtable, importdata` [xlsread doc](https://www.mathworks.com/help/matlab/ref/xlsread.html#bthgbma)
 - reading of data is done via xlsread, but other options are viable
 - prep the data: remove emepty, chara, 0 rows & columns. This way all elements of the matrix of data is plot-able
