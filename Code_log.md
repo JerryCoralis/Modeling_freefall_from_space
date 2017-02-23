@@ -56,7 +56,7 @@ ___
   
   ___
   
-[Feb.22 - Afternoon] *Iteration3*
+[Feb.22 - *Iteration3*] 
 - code now plots modeled data and raw excel data points for position against time
   - adjust ode45's elapsedTime limits as well as the raw data's elapsedTime limits for a prettier plot
 - issue with plotting modeled velocity:
