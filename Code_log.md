@@ -67,7 +67,14 @@
   - modeled data, ode45 is returning x by 2 array, first of which is position, second is veocity
   - this was seperated into col vectors used to plot modeled data.
 - `abs(modeled velocity)` so it coincide with the direction of actual velocity
-- issues with acceleration graph
+- ODE45 takes in the whole span of time 
+  - this means that if unrestricted, modeled data goes up to elapsedTime
+  - each graph is now restricted for aesthetics by xlim & ylim
+- check with instructors to see if graphs are correct
+- Part 2
+  - remade an ode45, freefall and acceleration function for part
+  - graphs are generated and restricted in the same way
+- check with instructors 
 
 
 
