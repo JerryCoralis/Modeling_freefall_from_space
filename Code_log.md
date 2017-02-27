@@ -62,9 +62,12 @@
 ---
 
 ###[Feb.26 - *Iteration4*]
-- Scratchley gave us a skeleton code
-- 
-
+- moved some contents to skeleton code & beautified code
+- plotting position seperately from velocity
+  - modeled data, ode45 is returning x by 2 array, first of which is position, second is veocity
+  - this was seperated into col vectors used to plot modeled data.
+- `abs(modeled velocity)` so it coincide with the direction of actual velocity
+- issues with acceleration graph
 
 
 
