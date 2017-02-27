@@ -13,7 +13,7 @@
 % Student 2 userid (email): mju@sfu.ca
         
 % Below, edit to list any people who helped you with the assignment, 
-%      or put ‘none’ if nobody helped (the two of) you.
+%      or put â€˜noneâ€™ if nobody helped (the two of) you.
 
 % Helpers: Hadi Moein, Craig Scratchley,Stackoverflow, MathWorks:MATLAB Documentation/Help
 
@@ -171,7 +171,7 @@ part = 5;
 
 %% Part 6 
 % Answer some questions here in these comments...
-% How long does it take for Felix’s parachute to open?
+% How long does it take for Felixâ€™s parachute to open?
 % <put your answer here in these comments>
 
 part = 6;
