@@ -74,7 +74,9 @@
 - Part 2
   - remade an ode45, freefall and acceleration function for part
   - graphs are generated and restricted in the same way
-- check with instructors 
+- Instructors response: watch the scaling of your graphs. It looks like airspeed is the issue and we need to mind the units.
+- use [nasa atmosphere](https://www.grc.nasa.gov/www/k-12/airplane/atmosmet.html) to undertand stdatmos provided to us.
+
 
 
 
