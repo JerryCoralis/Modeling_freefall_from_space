@@ -13,7 +13,7 @@
 % Student 2 userid (email): mju@sfu.ca
         
 % Below, edit to list any people who helped you with the assignment, 
-%      or put â€˜noneâ€™ if nobody helped (the two of) you.
+%      or put ‘none’ if nobody helped (the two of) you.
 
 % Helpers: Hadi Moein, Craig Scratchley,Stackoverflow, MathWorks:MATLAB Documentation/Help
 
@@ -64,8 +64,10 @@ elapsedTime = dataArray(:,11);
 
 % Comment on the acceleration calculated from the measured data. 
 % Is there any way to smooth the acceleration calculated from the data?
-% <We could apply a regeression onto the acceleration data. This would still produce an accurate model of 
-%the data since the deviation of acceleration isn't that great. 
+% <We can use different signal proccessing functions available in matlab.
+% The one we used was medfilt1 which took in a vector and applied an 
+%nth-order one-dimensional median filter to it to smooth the graph when
+%plotted>
 
 part = 1;
 %[T,Y] = ode45(@fall, % <...> 
@@ -171,7 +173,7 @@ part = 5;
 
 %% Part 6 
 % Answer some questions here in these comments...
-% How long does it take for Felixâ€™s parachute to open?
+% How long does it take for Felix’s parachute to open?
 % <put your answer here in these comments>
 
 part = 6;
