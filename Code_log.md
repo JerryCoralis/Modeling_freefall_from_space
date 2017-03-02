@@ -86,10 +86,7 @@
 - smoothing accleration plot 
   - we want to use `medfitl(x,n)` where n is some nth-order, the best n value for acceleration has not been found.
   - we want an n-value where the trend is kept but the noise and anomalies of the data are thrown out.
-
-
-
-
+- small patch to assignment2C.m commenting on acceleration smoothing
 
 
 
