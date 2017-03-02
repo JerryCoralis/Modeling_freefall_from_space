@@ -91,8 +91,10 @@
   - [helmet](http://www.redbullstratos.com/technology/pressure-suit-and-helmet/) 8pounds = 3.63kg
   - [suit](https://www.quora.com/What-is-the-weight-of-a-space-suit-on-the-ISS) 110pounds = 49.90kg
   - [lifes support](http://www.redbullstratos.com/technology/pressure-suit-and-helmet/) 200pounds = 90.72kg
-  - [felix mass](http://felixbaumgartner.com/bio/) = 73kg
+  - [parachute](http://www.redbullstratos.com/technology/parachute/) 27kg
+  - [felix](http://felixbaumgartner.com/bio/) = 73kg
   - life support quoted from first link
+  - total mass = totalweight/9.8 there is some uncertainty as we rounded from lb to kg as that lb was the source
 
 
 
