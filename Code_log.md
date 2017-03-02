@@ -52,7 +52,7 @@
   
 ---
   
-###[Feb.22 - *Iteration3*] 
+###[Feb.22 - *Iteration 3*] 
 - code now plots modeled data and raw excel data points for position against time
   - adjust ode45's elapsedTime limits as well as the raw data's elapsedTime limits for a prettier plot
 - issue with plotting modeled velocity:
@@ -61,7 +61,7 @@
   
 ---
 
-###[Feb.26 - *Iteration4*]
+###[Feb.26 - *Iteration 4*]
 - moved some contents to skeleton code & beautified code
 - plotting position seperately from velocity
   - modeled data, ode45 is returning x by 2 array, first of which is position, second is veocity
@@ -79,14 +79,24 @@
 
 ---
 
-###[Mar.1 - *Iteration 4*]
+###[Mar.1 - *Iteration 5*]
 - Plots for part 1 and 2 completed 
   - rescaled velocity and ode45 time interval to 1 min for part 1
   -reimplemented `timeDataCap` instead of using xlim ylim 
 - smoothing accleration plot 
   - we want to use `medfitl(x,n)` where n is some nth-order, the best n value for acceleration has not been found.
   - we want an n-value where the trend is kept but the noise and anomalies of the data are thrown out.
-- small patch to assignment2C.m commenting on acceleration smoothing
+  - a smoothing would get rid of the sharp drop @ ~60s. Not yet implemented.
+- Citation for mass
+  -[helmet](http://www.redbullstratos.com/technology/pressure-suit-and-helmet/) 8pounds = 3.63kg
+  -[suit](https://www.quora.com/What-is-the-weight-of-a-space-suit-on-the-ISS) 110pounds = 49.90kg
+  -[lifes support](http://www.redbullstratos.com/technology/pressure-suit-and-helmet/) 200pounds = 90.72kg
+  -[felix mass](http://felixbaumgartner.com/bio/) = 73kg
+  -life support quoted from first link
+
+
+
+
 
 
 
