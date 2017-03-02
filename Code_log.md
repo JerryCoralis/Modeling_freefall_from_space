@@ -80,7 +80,13 @@
 ---
 
 ###[Mar.1 - *Iteration 4*]
-- 
+- Plots for part 1 and 2 completed 
+  - rescaled velocity and ode45 time interval to 1 min for part 1
+  -reimplemented `timeDataCap` instead of using xlim ylim 
+- smoothing accleration plot 
+  - we want to use `medfitl(x,n)` where n is some nth-order, the best n value for acceleration has not been found.
+  - we want an n-value where the trend is kept but the noise and anomalies of the data are thrown out.
+
 
 
 
