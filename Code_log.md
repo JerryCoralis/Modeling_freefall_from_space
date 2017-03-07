@@ -95,9 +95,24 @@
   - [felix](http://felixbaumgartner.com/bio/) = 73kg
   - life support quoted from first link
   - total mass = totalweight/9.8 there is some uncertainty as we rounded from lb to kg as that lb was the source
+  
+---
 
+###[Mar.6 - *Final Iteration*]
+- Part 3 - ACd was calculated at terminal velocity as that is the when a=0
+- Part 4 - Inserted an if statement to change acceleration due to gravity from 9.8 to 9.8(Re/Re+altitude)
+- Part 5 -Choose to use stdatmo to find rho, there are now 2 terminal velocities and the switch between the two happens instantly. This caused a sharp spike in acceleration as expected
+- Part 6 - Now we have a rate for when the parachute is opening. ACd was recalculated with a qudratic factor to simulate the increase in cross-sectional area due to the parachute opening. Or model produced a symmetric spike. The actual data showed Felix's acclereation increase linearly and then fell down back to 0 logarithmically. 
 
+Websites referenced:
 
+[Rigirous rho calculation](https://en.wikipedia.org/wiki/Density_of_air)
+
+[Force due to drag and it's relation with F=ma at terminal velocity](https://en.wikipedia.org/wiki/Drag_(physics))
+
+[Terminal Velocity](https://en.wikipedia.org/wiki/Terminal_velocity)
+
+[NASA's drag equation](https://www.grc.nasa.gov/www/k-12/airplane/drageq.html)
 
 
 
