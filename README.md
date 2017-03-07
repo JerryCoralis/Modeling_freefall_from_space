@@ -29,7 +29,7 @@ the variables they represent. Constants for gravity and the altitude he jumps ar
 `mass(~,~)`
 - returns Felix's mass
 
-`drag(time, position, velocity, mass)
+`drag(time, position, velocity, mass)`
 - returns b = 0.2 for part 2
 - returns the b = 1/2*rho*Acd, rho is calculated either with stdatmo, or Airdensity depending on the part 
 
@@ -42,7 +42,7 @@ the variables they represent. Constants for gravity and the altitude he jumps ar
 `getACd(acceleration, altitdue, velocity, mass)`
 - solve for ACd using formula =  2*(a - a_grav).*m./(rho.*v.^2)
 
-`openPara(paraArea, BodyArea, altitudeParaOpen, altitudeParaFullyOpen, position)
+`openPara(paraArea, BodyArea, altitudeParaOpen, altitudeParaFullyOpen, position)`
 - if above the altiude he is suppose to open parachute, ACd doesnt need to account for a growing cross-sectionall area
 - else, ACd is recalculated using paraArea*((h1 - p)/(h1 - h2))^2 as a rate for the increasing ACd
 
