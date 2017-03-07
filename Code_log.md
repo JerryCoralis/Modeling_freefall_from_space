@@ -52,7 +52,7 @@
   
 ---
   
-###[Feb.22 - *Iteration 3*] 
+###[Feb. 22 - *Iteration 3*] 
 - code now plots modeled data and raw excel data points for position against time
   - adjust ode45's elapsedTime limits as well as the raw data's elapsedTime limits for a prettier plot
 - issue with plotting modeled velocity:
@@ -61,7 +61,7 @@
   
 ---
 
-###[Feb.26 - *Iteration 4*]
+###[Feb. 26 - *Iteration 4*]
 - moved some contents to skeleton code & beautified code
 - plotting position seperately from velocity
   - modeled data, ode45 is returning x by 2 array, first of which is position, second is veocity
@@ -79,7 +79,7 @@
 
 ---
 
-###[Mar.1 - *Iteration 5*]
+###[Mar. 1 - *Iteration 5*]
 - Plots for part 1 and 2 completed 
   - rescaled velocity and ode45 time interval to 1 min for part 1
   -reimplemented `timeDataCap` instead of using xlim ylim 
@@ -98,7 +98,7 @@
   
 ---
 
-###[Mar.6 - *Final Iteration*]
+###[Mar. 6 - *Final Iteration*]
 - Part 3 - ACd was calculated at terminal velocity as that is the when a=0
 - Part 4 - Inserted an if statement to change acceleration due to gravity from 9.8 to 9.8(Re/Re+altitude)
 - Part 5 -Choose to use stdatmo to find rho, there are now 2 terminal velocities and the switch between the two happens instantly. This caused a sharp spike in acceleration as expected
