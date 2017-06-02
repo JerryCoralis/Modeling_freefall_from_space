@@ -1,4 +1,4 @@
-###[Feb. 11 - *Iteration 1*]
+### [Feb. 11 - *Iteration 1*]
 - data `importing: uiimport, xlsread, readtable, importdata` [xlsread doc](https://www.mathworks.com/help/matlab/ref/xlsread.html#bthgbma)
 - reading of data is done via xlsread, but other options are viable
 - prep the data: remove emepty, chara, 0 rows & columns. This way all elements of the matrix of data is plot-able
@@ -6,7 +6,7 @@
 
 ---
 
-###[Feb. 11 - *Iteration 2*]
+### [Feb. 11 - *Iteration 2*]
 - Working on prepping data, first iteration removes all rows that contain only NaN via any(rawArray,2)
 
 > vectorization = when you use a matrix operation to reduce a loop
@@ -19,7 +19,7 @@
 
 ---
 
-###[Feb. 15 - *Iteration 2*]
+### [Feb. 15 - *Iteration 2*]
 - visual of the mission, compare with graphed results to ensure everything is working 
   [stratos mission timeline](http://www.redbullstratos.com/the-mission/mission-timeline/ )
 - Omit a data point if dependant value is NaN, keep the other elements of the row, they might be a valid point. 
@@ -28,7 +28,7 @@
   
   ---
 
-###[Feb. 17 - *Iteration 2*]
+### [Feb. 17 - *Iteration 2*]
 - new excel data with more data points. Current code is able to handle both files. 
 - office hour with Hadi:
   - model we generate is to be compared to actual model, this is how we are graded.
@@ -37,14 +37,14 @@
   
   ----
   
-###[Feb. 19 - *Iteration 2*]
+### [Feb. 19 - *Iteration 2*]
 - apply ode45 to model free fall:
   - takes in an interval, and initial conditions. Sometimes the initial cond. variable is unused but is still requried.
   - susbs in the free fall formula and it will model the equation
   
 ---
 
-###[Feb. 21 - *Iteration 2*]
+### [Feb. 21 - *Iteration 2*]
 - going over `any()` and comparing it to isnan to see which is a better filter for the raw data:
   - any goes along the rows and tests to see if there is a nonzero value in that row, returns a logic of this
   - via `dataArray(B,:)` take the logic true rows and grab their col elements, this is our new matrix
@@ -52,7 +52,7 @@
   
 ---
   
-###[Feb. 22 - *Iteration 3*] 
+### [Feb. 22 - *Iteration 3*] 
 - code now plots modeled data and raw excel data points for position against time
   - adjust ode45's elapsedTime limits as well as the raw data's elapsedTime limits for a prettier plot
 - issue with plotting modeled velocity:
@@ -61,7 +61,7 @@
   
 ---
 
-###[Feb. 26 - *Iteration 4*]
+### [Feb. 26 - *Iteration 4*]
 - moved some contents to skeleton code & beautified code
 - plotting position seperately from velocity
   - modeled data, ode45 is returning x by 2 array, first of which is position, second is veocity
@@ -79,7 +79,7 @@
 
 ---
 
-###[Mar. 1 - *Iteration 5*]
+### [Mar. 1 - *Iteration 5*]
 - Plots for part 1 and 2 completed 
   - rescaled velocity and ode45 time interval to 1 min for part 1
   -reimplemented `timeDataCap` instead of using xlim ylim 
@@ -98,7 +98,7 @@
   
 ---
 
-###[Mar. 6 - *Final Iteration*]
+### [Mar. 6 - *Final Iteration*]
 - Part 3 - ACd was calculated at terminal velocity as that is the when a=0
 - Part 4 - Inserted an if statement to change acceleration due to gravity from 9.8 to 9.8(Re/Re+altitude)
 - Part 5 -Choose to use stdatmo to find rho, there are now 2 terminal velocities and the switch between the two happens instantly. This caused a sharp spike in acceleration as expected
