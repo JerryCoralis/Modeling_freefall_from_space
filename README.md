@@ -1,5 +1,10 @@
 # Freefall modeling in Matlab
-Modeling Felix Baumgartner's Redbull Stratos jump from the stratosphere.
+Modeling [Felix Baumgartner's Redbull Stratos jump](https://www.youtube.com/watch?v=FHtvDA0W34I) from the stratosphere.
+
+Final Models:
+![alt text](https://github.com/JerryCoralis/Matlab-Modeling-Space-Freefall/blob/master/g4250.png "graphs")
+
+
 
 ## Flow of code:
 1. data is read and processed and rows of excusively `NaN` are erased.
