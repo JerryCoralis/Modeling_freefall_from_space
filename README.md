@@ -13,7 +13,7 @@ Final Models:
 
 ## Reading data:
 Code takes in a excel file that has data relevant to Felix Baumgartner's jump. Columns of the data is read and filed under
-the variables they represent. Constants for gravity and the altitude he jumps are started here. 
+the variables they represent. Constants for gravity and the altitude he jumps from are started here. 
 
 ## Functions:
 `plotComparision(timeCap, title, number of plots)` 
